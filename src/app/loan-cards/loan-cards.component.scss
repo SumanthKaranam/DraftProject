@@ -1,0 +1,35 @@
+.horizontal-card-container {
+  display: flex;
+  width: 100%;
+  margin-left: 20px;
+  justify-content: space-evenly;
+  .horizontal-card {
+     width: 16%; 
+    margin: 8px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .horizontal-card:hover{
+     background-color: #1976d2;
+     color: white;
+  }
+
+   .data-and-icon{
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+  .percentage-data {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .card-icon {
+    font-size: 26px;
+  }
+  p{
+    font-size: x-small;
+  }
+}
